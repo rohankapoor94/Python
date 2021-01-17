@@ -25,3 +25,4 @@ print(min(array))
 print(max(array))
 del array[0:9]
 print(array)
+print(sum(array))
