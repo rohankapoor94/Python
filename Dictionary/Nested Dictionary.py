@@ -1,0 +1,26 @@
+dic={
+    "child1":{
+        "name":"Rohan",
+        "DOB":2001
+    }
+    ,"child2":{
+        "name":"Kan",
+        "DOB":1999
+    }
+}
+print(dic["child1"]["name"])
+#Creating Multiple Dictionary and then Combining it
+child1={
+        "name":"Rohan",
+        "DOB":2001
+    }
+child2={
+        "name":"Kan",
+        "DOB":1999
+    }
+myfamily={
+    "child1":child1,
+    "child2":child2
+}
+print(myfamily)
+print(myfamily["child1"]["DOB"])
